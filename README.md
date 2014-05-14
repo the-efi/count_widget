@@ -19,7 +19,8 @@ Use it like that:
 Update it like this:
 
 ```sh
-$ curl -d '{ "auth_token": "YOUR_AUTH_TOKEN" , "ux_time": 1400000000, "additional-desc": "On expiration:", "additional-text": "call bomb squad"}' http://dashing.local/widgets/mywidget
+$ curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "title" : "Explosion:", "ux_time": 1401030000, \
+"additional-desc":"On expiration:", "additional-text": "call bomb squad" }' \ http://${DASHING_URL}:${DASHING_PORT}/widgets/mywidget
 ```
 
 
